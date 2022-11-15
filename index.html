@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Shipra Pal | Portfolio </title>
@@ -12,6 +12,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
 
 </head>
 <body>
@@ -26,7 +28,9 @@
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
+                <li><a href="#gitt" class="menu-btn">Github</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
+                <li><a href="./Shipra-Pal-Resume.pdf" target="_blank"  class="menu-btn">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -41,7 +45,7 @@
                 <div class="text-1">Hello, my name is</div>
                 <div class="text-2">Shipra Pal</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="https://drive.google.com/file/d/122G0XbaAqpYAXo8w-R1yIuD1ygSSBBny/view?usp=sharing" target="_blank">Resume</a>
+                <a href="./Shipra-Pal-Resume.pdf" download>Download Resume</a>
             </div>
         </div>
     </section>
@@ -56,7 +60,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">I'm Shipra Pal and I'm a <span class="typing-2"></span></div>
-                    <p>A passionate Front-End Developer, who is passionate about building digital products, dedicated to developing robust applications that interact with the Front-End part of web applications. Worked through 1000+ hours of Bootcamp structure learning JavaScript, React.Js, Node.Js, HTML5, and CSS3. Extensive expertise in website architecture, design, and web design. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p>
+                    <p>A passionate Full Stack Web Developer, who is passionate about building digital products, dedicated to developing robust applications that interact with the Front-End & Back-End part of web applications. Worked through 1000+ hours of Bootcamp structure learning JavaScript, React.Js, Express, MongoDB, Node.Js, HTML5, and CSS3. Extensive expertise in website architecture, design, and web design. Problem-solving mindset with a goal to optimize my application for better stability and speed. Love to work in a team.</p>
                 </div>
             </div>
         </div>
@@ -72,52 +76,64 @@
 
                     <div class="skills-images">
                         <img src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" alt="html">
+                        <h3>HTML</h3>
                     </div>
 
                     <div class="skills-images">
                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyD2GuKI7ApM8VaO6QRkMlEO5s13nYlNUv9A&usqp=CAU=" alt="js">
+                        <h3>JavaScript</h3>
                     </div>
-
                     
                     <div class="skills-images">
                         <img src="./images/nodeJS.jpg" alt="nodeJS">
+                        <h3>NodeJS</h3>
                     </div>
-
                     
                     <div class="skills-images">
-                        <img src="./images//git.png" alt="git">
+                        <img  src="./images/express.png" alt="express">
+                        <h3>Express</h3>
                     </div>
 
                     <div class="skills-images">
                         <img src="./images/vscode.png" alt="vscode">
+                        <h3>VsCode</h3>
                     </div>
+
                     <div class="skills-images">
                         <img src="./images/npm.png" alt="npm">
+                        <h3>Npm</h3>
                     </div>
                     
                 </div>
                 <div class="column right">
                     <div class="skills-images">
                         <img src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" alt="css">
+                        <h3>CSS</h3>
                     </div>
                     
                     <div class="skills-images">
                         <img src="./images/reactJS.png" alt="reactJS">
+                        <h3>React</h3>
                     </div>
                   
                     <div class="skills-images">
                         <img src="./images/redux.jpg" alt="redux">
+                        <h3>Redux</h3>
                     </div>
 
                     <div class="skills-images">
-                        <img src="./images/bootstrap.png" alt="bootstrap">
+                        <img src="./images/mongodb.png" alt="mongodb">
+                        <h3>MongoDB</h3>
                     </div>
 
                     <div class="skills-images">
                         <img src="./images/github.svg" alt="github">
+                        <h3>GitHub</h3>
                     </div>
+                    
                     <div class="skills-images">
                         <img src="./images/postman.png" alt="postman">
+                        <h3>Postman</h3>
                     </div>
 
                 </div>
@@ -132,7 +148,7 @@
             <div class="carousel owl-carousel">
                   <div class="card">
                     <div class="box">
-                        <img src="data:image/png;base64,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" alt="">
+                        <img src="./images/TataCliQ.jpg" alt="TaatCliq">
                         <div class="text">Tata-CliQ</div>
                         <p>Tata Cliq is an Indian e-commerce company.TataCLiQ operates in categories such as Electronics, Fashion, Footwear and Accessories.</p></br>
                         
@@ -151,7 +167,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4wmoxzJCkoH_OZ2dScpWDUZzLYeWPNYYmrg&usqp=CAU" alt="">
+                        <img src="./images/Antropologie.jpg" alt="anthro">
                         <div class="text">Anthropologie</div>
                       <p>Anthropologie is a website where user can buy  mix of clothing, accessories, gifts and home décor to reflect their personal style and we cloned it.</p></br>
                      
@@ -168,7 +184,7 @@
                 </div>
                 <div class="card">
                     <div class="box">
-                        <img src="data:image/jpeg;base64,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" alt="">
+                        <img src="./images/AppleTv.jpg" alt="">
                         <div class="text">Apple TV</div>
                         <p>Apple TV+ is a streaming service from Apple. It features exclusive Apple Original shows and movies and watch premieres of your favourite movie, tv shows.</p></br>
                          
@@ -186,6 +202,23 @@
             </div>
         </div>
     </section>
+
+
+    <!-- git stats n calendar -->
+    <section class="gitt" id="gitt">
+        <div class="max-width">
+            <h2 class="title" id="divv">Github Calendar</h2>
+            <div class="calendar"></div>
+        </div>
+        <div class="max-width">
+            <h2 class="title" id="divvv">Github Statistics</h2>
+            <center id="stats">
+                <a href="http://www.github.com/ships97"><img id="statsimg" src="https://github-readme-stats.vercel.app/api?username=ships97&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="ships97's GitHub stats" /></a>
+            </center> 
+        </div>
+    </section>
+    <!-- git stats n calendar -->
+
 
     <!-- contact section start -->
     <section class="contact" id="contact">
@@ -299,6 +332,8 @@ document
         emailjs.init("KDUmwfpD74fVfcxiV");
       })();
     </script>
+
+
 
 
 </body>

@@ -132,7 +132,7 @@
     color: #fff;
   }
   .navbar.sticky .menu li a{
-    color: #000;
+    color: #fff;
   }
   /* menu btn styling */
   .menu-btn {
@@ -172,7 +172,7 @@
   /* home section styling */
   .home {
     display: flex;
-    background: url("https://media.istockphoto.com/photos/blank-screen-laptop-and-smartphone-on-black-background-picture-id1308200215?k=20&m=1308200215&s=612x612&w=0&h=oD9HbQcRRiAnJj64PO7nZuPIhzToHba70ASyYCKLfHY=") no-repeat center;
+    background: url("https://raw.githubusercontent.com/Grajoria0083/Grajoria0083.github.io/master/images/bg.jpg") no-repeat center;
     background-color: #111;
     height: 100vh;
     color: #fff;
@@ -227,7 +227,7 @@
    
    background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg");
    background-size: cover;
-    background-attachment: fixed;
+   background-attachment: fixed;
   }
   
   .about .about-content .left {
@@ -327,16 +327,19 @@
   
   /* skills section styling */
   .skills-images img {
-    height: 140px;
+    height: 100px;
     width: 140px;
     /* object-fit: cover; */
     border-radius: 5%;
-    /* border: 5px solid crimson; */
+    /* border: 1px solid crimson; */
     transition: all 0.3s ease;
+  }
+  .skills-images h3{
+    text-align: center;
   }
   .skills-images img:hover{
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    height: 110%;
+    height: 90%;
   }
   .skills .title::after {
     content: "What I know";
@@ -418,6 +421,9 @@
   }
   
   /* project section styling */
+  .project{
+    margin-top: 160px;
+  }
   .project .title::after {
     content: "See my work";
   }
@@ -525,8 +531,39 @@
     height: 120px;
     margin-bottom: 30px;
   }
+
+/* calendar */
+
+  #gitt{
+    /* border: 1px solid red; */
+    background-image: url("https://images.rawpixel.com/image_400/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvbHIvdjk2MC1uaW5nLTMwLmpwZw.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .calendar {
+    color: black;
+    background-color: white;
+    transition: all 0.5s;
+    width: 76%;
+    margin-bottom: 150px;
+  }
+  .calendar:hover {
+    background-color: black;
+  }
+  #divvv{
+    /* border: 1px solid green; */
+    margin-top: 60px;
+  }
+  #statsimg{
+    border: 1px solid yellow;
+  }
+  /* calendar */
+
   
   /* contact section styling */
+  /* #contact{
+    border: 1px solid black;
+  } */
   .contact .title::after {
     content: "Get in touch";
   }
@@ -675,7 +712,7 @@
       text-align: center;
       padding-top: 80px;
       transition: all 0.3s ease;
-    }
+    } 
     .navbar .menu.active {
       left: 0;
     }
@@ -738,6 +775,9 @@
     .services .serv-content .card {
       width: 100%;
     }
+    #statsimg{
+      width: 450px;
+    }
   }
   
   @media (max-width: 500px) {
@@ -768,6 +808,24 @@
       width: 35px;
       font-size: 23px;
       line-height: 38px;
+    }
+    #statsimg{
+      width: 400px;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 435px){
+    #statsimg{
+      width: 300px;
+      margin: auto;
+    }
+  }
+
+  @media (max-width: 335px){
+    #statsimg{
+      width: 250px;
+      margin: auto;
     }
   }
   

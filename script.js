@@ -35,14 +35,14 @@ $(document).ready(function () {
   
     // typing text animation script
     var typed = new Typed(".typing", {
-      strings: ["Front-End Developer", "Coder","Problem-Solver","Designer"],
+      strings: ["Full Stack Web Developer","Coder","Problem-Solver","Designer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
     });
   
     var typed = new Typed(".typing-2", {
-      strings: ["Front-End Developer","Coder","Problem-Solver","Designer"],
+      strings: ["Full Stack Web Developer","Coder","Problem-Solver","Designer"],
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
@@ -72,6 +72,13 @@ $(document).ready(function () {
       },
     });
   });
+
+
+
+  // calendar stats
+  GitHubCalendar(".calendar", "ships97");
+  // or enable responsive functionality
+  GitHubCalendar(".calendar", "ships97", { responsive: true });
   
 
 
