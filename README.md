@@ -2,4 +2,4 @@
 This is my personal portfolio in which I added my projects, skills , contact information.
 
 ## Live Portfolio Site:-
-https://ships-portfolio.netlify.app/
+ https://ships-portfolio.netlify.app/
